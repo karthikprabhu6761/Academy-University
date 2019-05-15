@@ -111,15 +111,11 @@ header {
 
 header .up{
   display: inline-block;
-  padding: 8px;
-}
-
-header .logo {
-  margin: 12px 0 7px 32px;
+  padding: 14px;
 }
 
 header .logo img {
-  width: 76px;
+  width: 65px;
 }
 
 header .border-cross {
@@ -1083,6 +1079,7 @@ main #go_top img {
 
   header .up {
     display: block;
+    padding: 10px;
   }
 
   header .up {
@@ -1122,11 +1119,11 @@ main #go_top img {
 
   header .menu-bar {
     float: right;
-    margin: 10px 24px 0px 0px;
   }
 
   header .menu-bar img {
-    width: 48px;
+    width: 41px;
+    margin-top: 7px;
   }
 
   /**********/
