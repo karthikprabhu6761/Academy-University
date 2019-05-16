@@ -109,7 +109,7 @@ header {
   background-color: none;
 }
 
-header .up{
+header .up {
   display: inline-block;
   padding: 14px;
 }
@@ -175,7 +175,7 @@ header nav ul a {
 
 .banner button img {
   height: 40px;
-  opacity: .3;
+  opacity: .8;
 }
 
 .banner button:hover {
@@ -188,12 +188,12 @@ header nav ul a {
 
 .banner button#next {
   top: 50%;
-  right: 5px;
+  right: 1px;
 }
 
 .banner button#prev {
   top: 50%;
-  left: 5px;
+  left: 1px;
 }
 
 .banner .content span {
@@ -247,22 +247,19 @@ header nav ul a {
 
 .banner .content {
   font-family: lato;
-  width: 600px;
-  height: 200px;
-  background: rgba(0, 65, 128, 0.6);
   color: white;
-  padding: 20px;
+  font-size: 23px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
   position: absolute;
-  bottom: 10%;
-  right: -600px;
-  opacity: 0;
-  transition: all 1s ease-in-out 1s;
+  right: 150px;
+  top: 270px;
 }
 
-.banner .slide.present .content {
-  right: 0;
-  transition: all 1.5s ease-in-out .5s;
-  opacity: 1;
+.banner .content h1,
+p {
+  margin: 20px;
 }
 
 /**************/
@@ -1160,6 +1157,19 @@ main #go_top img {
 
   .banner .slide:nth-child(5) {
     background-image: url('../img/banner/banner_05_mob.jpg');
+  }
+
+  .banner .content {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 340px;
+  }
+
+  .banner .content p {
+    font-size: 15px;
   }
 
   /**************/
